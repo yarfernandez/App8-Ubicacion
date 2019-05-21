@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 
-<widget xmlns   = "http://www.w3.org/ns/widgets"  
+<widget xmlns = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.app8"  
-     version  = "1.0.0">  
+     id = "com.phonegap.app8"  
+     version = "1.0.0">  
 	 
-   <name> app8 Geolocalizacion con google maps-</name>  
+   <name> app8 Geolocalizacion con google maps</name>  
    
    <description>  
     Muestra la ubicacion del dispositivo de acuerdo al GPS y en el mapa de google maps 
@@ -38,6 +38,6 @@
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!--Colocar icono app-->
-<icon src="res/android/mdpi.png" />
+<icon src="res/android/mdpi.png"/>
   
 </widget>
