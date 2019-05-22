@@ -20,12 +20,12 @@ function cargarmap(){
 	{
 		lat=position.coords.latitude;
 		lon=position.coords.longitude;
-		lation=new googlr.maps.LatLng(lat,lon)
+		latlon=new google.maps.LatLng(lat,lon)
 		mapholder =document.getElementById('mapholder')
 		mapholder.style.height ='500px';
 		mapholder.style.width ='750px';
 		var myOptions={
-		center:lation,zoom:17,
+		center:latlon,zoom:17,
 		mapTypeld:google.maps.MapTypeld.ROADMAP,
 		mapTypeControl :false,
 		navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
